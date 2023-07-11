@@ -6,7 +6,7 @@
   color: var(--text-color);
 }
 
-:root{
+:root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
@@ -16,7 +16,7 @@
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
-.light{
+.light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
@@ -43,7 +43,8 @@ header {
 
 #container {
   padding: 0 24px;
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
 }
 
@@ -67,13 +68,13 @@ header {
   line-height: 24px;
 }
 
-#switch{
+#switch {
   margin: 8px auto;
   position: relative;
   width: 64px;
 }
 
-#switch button{
+#switch button {
   display: block;
   border: 0;
   background: white var(--switch-bg-url) no-repeat center;
@@ -88,11 +89,11 @@ header {
   transform: translateY(-50%);
 }
 
-.light #switch button{
+.light #switch button {
   left: 0;
 }
 
-#switch span{
+#switch span {
   border-radius: 12px;
   display: block;
   width: 64px;
@@ -138,7 +139,7 @@ ul li a:hover {
   font-size: 24px;
 }
 
-#social-links a{
+#social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,16 +152,15 @@ ul li a:hover {
   background-color: var(--highlight-color);
 }
 
-#social-links i{
+#social-links i {
   padding: 0;
 }
-footer{
+footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
 }
-
