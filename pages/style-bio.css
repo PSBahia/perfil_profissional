@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body{
+  background: #7701a5;
+}
+
+#container {
+  border-radius: 10px;
+  text-align: center;
+  padding: 24px;
+  width: 90%;
+  max-width: 588px;
+  margin: 0px auto 0px;
+  background: #f2d6f3;
+}
+
+h1{
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.ion-md-arrow-back{
+  margin: 30px 0px 0px 20px;
+  font-size: 50px;
+  color: #f2d6f3;
+}
+
+p{
+  text-align: justify;
+  margin: 20px;
+}
