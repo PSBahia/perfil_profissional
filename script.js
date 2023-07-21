@@ -7,7 +7,7 @@ function toggleMode(){
   if (html.classList.contains('light')){
     img.setAttribute(
       "src",
-      "https://media.licdn.com/dms/image/C4D03AQENPb5cpiKNng/profile-displayphoto-shrink_800_800/0/1635558426541?e=2147483647&v=beta&t=sdBqf2PTAYyHR60RjnKJH93EPGNS6YjjvcNjpxkbG4k"
+      "paulo-perfil.jpg"
     )
     img.setAttribute("alt", "Perfil")
   }else{
