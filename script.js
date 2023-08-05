@@ -7,13 +7,13 @@ function toggleMode(){
   if (html.classList.contains('light')){
     img.setAttribute(
       "src",
-      "https://media.licdn.com/dms/image/D4D35AQGmyMdvQhe2WA/profile-framedphoto-shrink_200_200/0/1688071936798?e=1689818400&v=beta&t=p3KzQ2-kQ3sFuiTDfZe_eKfLSRTfVH52gD4xkxgPS9w"
+      "./assets/paulo-perfil.jpg"
     )
     img.setAttribute("alt", "Perfil")
   }else{
     img.setAttribute(
       "src",
-      "https://media.licdn.com/dms/image/D4D35AQGmyMdvQhe2WA/profile-framedphoto-shrink_200_200/0/1688071936798?e=1689818400&v=beta&t=p3KzQ2-kQ3sFuiTDfZe_eKfLSRTfVH52gD4xkxgPS9w"
+      "./assets/paulo-perfil.jpg"
     )
     img.setAttribute("alt", "Perfil")
   }
